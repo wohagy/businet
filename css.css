@@ -1,104 +1,243 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: open sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif;;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: open sans, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, sans-serif;
+  color: #eef1f5;
 }
-
-.main1{
-    background: #f9f8f8;
-    height: 800; 
+.aaaaa {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 75em;
 }
-.main2{
-    background: #007bff;
-    height: 600;
+.main1 {
+  background: #f9f8f8;
+  height: 800px;
+  padding-top: 5em;
 }
-.main3{
-    background: #ffffff;
-    height: 600;    
+.main2 {
+  background: #3375ec;
+  height: 600px;
+  text-shadow: 0px 0px 0.03em #eef1f5;
 }
-.main4{
-    height: 553;
-    background: url(bg2.jpg) center no-repeat fixed;
+.main3 {
+  background: #ffffff;
+  height: 600px;
 }
-.main5{
-    color: white;
-    height: 500px;
+.main4 {
+  height: 553px;
+  background: url(bg2.jpg) center no-repeat;
+  background-size: cover;
 }
-a{
-    text-decoration: none;
-    color: #f8f9fa
+.main5 {
+  color: white;
+  height: 500px;
 }
-.header1{
-    background: url(background.jpg) center no-repeat fixed;
-    height: 785;
-
+a {
+  text-decoration: none;
+  color: #f8f9fa;
 }
-.fll{
-    float: left;
-    margin-top: 3%;
-    
+.header1 {
+  background: url(background.jpg) center no-repeat;
+  height: 670px;
+  background-size: cover;
 }
-.butt{
-   
-    background-color: #007bff;
-    width: 115px;
-    height: 40px;
-    padding-top: 15px;
-    padding-bottom: 0px;
-    border-radius: 400px;
-    font-size: 15px;
-    text-align: center;
-    float: left;
-    
- }
- .txt1{
-     font-size: 1.3em;
-     color: white;
-     float: left;
-     margin-top: 11%;
-     
- }
- .butt2{
-     
-    background-color: #007bff;
-    width: 167px;
-    height: 45px;
-    border-radius: 400px;
-    font-size: 18px;
-    text-align: center;
-    float: left;
-    padding-top: 18px;
- }
- .butt3{
-     
-    background-color: #ffffff;
-    width: 167px;
-    height: 45px;
-    border-radius: 400px;
-    font-size: 18px;
-    text-align: center;
-    float: left;
-    padding-top: 18px;
- }
- .minibutt{
-     
-    background-color: #e5ebf7;
-    width: 130px;
-    height: 21px;
-    border-radius: 400px;
-    font-size: 12px;
-    text-align: center;
-    float: left;
-    color: #3375ec;
-    padding-top: 2px;
-    
- }
- .clear{
-     clear: both;
- }
- .color:hover {
-    background:#ff6f80;
-  }
-  .color1:hover {
-    background:#007bff;
-  }
+.container11 {
+  display: flex;
+  justify-content: space-between;
+  height: 10%;
+  width: 100%;
+  align-items: center;
+}
+.butt {
+  border: 1px solid #dde0e4;
+  width: 115px;
+  height: 40px;
+  border-radius: 400px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2 {
+  margin-right: 15em;
+  margin-left: 2em;
+}
+.box4 {
+  display: flex;
+  height: 20em;
+  width: 40em;
+  flex-direction: column;
+  margin-top: 6em;
+  margin-left: 7em;
+}
+.txt1 {
+  font-size: 1.3em;
+  color: white;
+  font-stretch: ultra-expanded;
+}
+.butt2 {
+  background-color: #007bff;
+  width: 167px;
+  height: 60px;
+  border-radius: 400px;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.butt3 {
+  background-color: #ffffff;
+  width: 167px;
+  height: 60px;
+  border-radius: 400px;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin-right: 2em;
+}
+.minibutt {
+  background-color: #e5ebf7;
+  width: 10em;
+  height: 2.8em;
+  border-radius: 400px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #3375ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clear {
+  clear: both;
+}
+.color:hover {
+  background: #ff6f80;
+}
+.color1:hover {
+  background: #3375ec;
+}
+.acolor:hover {
+  color: #3375ec;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.butss {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 3em;
+}
+#whatwedo {
+  text-align: center;
+  font: lighter 250% sans-serif;
+  padding: 0.5em;
+  color: #343a40;
+  text-shadow: 0px 0px 0.03em #343a40;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  height: 38em;
+  width: 75em;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0.5em;
+  border: 2px solid black;
+}
+.cub {
+  border-radius: 7px;
+  height: 89%;
+  width: 30%;
+  background: white;
+  box-shadow: 0 0px 20px rgba(223, 201, 201, 0.7);
+}
+.container1_inside {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shadow {
+  box-shadow: 0 0px 20px rgba(223, 201, 201, 0.7); /* Параметры тени */
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  height: 20em;
+  width: 75em;
+  align-items: center;
+  margin-top: 8em;
+}
+.container2_inside {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cub2 {
+  height: 100%;
+  width: 50%;
+  border-radius: 5px;
+}
+.background_talking {
+  background: url(talking.jpg) center no-repeat;
+  background-size: cover;
+}
+#afewwords {
+  font: lighter 250% sans-serif;
+  margin-top: 0.3em;
+  color: #eef1f5;
+  text-shadow: 0px 0px 0.03em #343a40;
+  margin-bottom: 0.3em;
+}
+#ulll {
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.container4 {
+  display: flex;
+  height: 30em;
+  width: 75em;
+  align-items: center;
+  margin-top: 4em;
+  border: 2px solid black;
+}
+#background_graph {
+  background: url(graph.png);
+  background-size: 100% auto;
+}
+.reasons {
+  margin-top: 0.7em;
+  font: lighter 250% sans-serif;
+  margin-bottom: 0.3em;
+}
+.ul_li {
+  color: #343a40;
+  margin-top: 1em;
+  text-shadow: 0px 0px 0.03em #343a40;
+}
+.container5 {
+  display: flex;
+  height: 24em;
+  width: 75em;
+  align-items: center;
+  margin-top: 7em;
+  border: 2px solid black;
+  justify-content: flex-end;
+}
+.cub3 {
+  height: 100%;
+  width: 45%;
+  border: 2px red solid;
+}
+.color3:hover {
+  background-color: #ffc107;
+}
