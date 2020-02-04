@@ -31,8 +31,12 @@
   background-size: cover;
 }
 .main5 {
-  color: white;
-  height: 500px;
+  background: white;
+  height: 600px;
+}
+.main6{
+  background: #3375ec;
+  height: 400px;
 }
 a {
   text-decoration: none;
@@ -111,6 +115,10 @@ a {
   justify-content: center;
   align-items: center;
 }
+.minib_color{
+  color:white;
+  background: #6b97e7;
+}
 .clear {
   clear: both;
 }
@@ -132,12 +140,13 @@ a {
   justify-content: flex-start;
   margin-top: 3em;
 }
-#whatwedo {
+.center_big_text {
   text-align: center;
-  font: lighter 250% sans-serif;
-  padding: 0.5em;
+  font-size: 240% ;
+  font-weight: 400;
+  padding: 0.4em;
   color: #343a40;
-  text-shadow: 0px 0px 0.03em #343a40;
+  text-shadow: 0px 0px 0.02em #343a40;
 }
 .container1 {
   display: flex;
@@ -238,3 +247,32 @@ a {
 .color3:hover {
   background-color: #ffc107;
 }
+.container6 {
+  display: flex;
+  height: 24em;
+  width: 75em;
+  align-items: center;
+  margin-top: 5em;
+  flex-direction: column;
+  border: 2px solid black;
+}
+.main4_marg {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: #ffffff;
+  text-shadow: 0 0 0.08em rgb(255, 255, 255);
+}
+.big_text1 {
+  font-size: 250%   ;
+  font-weight: 400;
+  color: #ffffff;
+  text-shadow: 0px 0px 0.02em #ffffff;
+}
+.container7 {
+  display: flex;
+  height: 17em;
+  width: 75em;
+  align-items: center;
+  margin-top: 5em;
+  flex-direction: column;
+  border: 2px solid black;
