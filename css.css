@@ -5,6 +5,15 @@
     helvetica neue, Arial, sans-serif;
   color: #eef1f5;
 }
+.butt3_txt {
+  transition: 0.85s;
+}
+.butt3:hover .butt3_txt {
+  color: rgb(255, 255, 255);
+}
+.butt3 p {
+  color: black;
+}
 .aaaaa {
   display: flex;
   justify-content: center;
@@ -15,6 +24,58 @@
   background: #f9f8f8;
   height: 800px;
   padding-top: 5em;
+}
+.bar {
+  display: flex;
+  list-style: none;
+}
+.main1_menu {
+  height: 32%;
+  width: 75em;
+  position: absolute;
+  background: white;
+  border-radius: 10px;
+  top: 100px;
+  left: 73px;
+  opacity: 0;
+  transition: 0.8s;
+}
+.menu_visibilyty:hover .main1_menu {
+  transition: 0.8s;
+
+  opacity: 1;
+}
+.menu_inside {
+  height: auto;
+  width: auto;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  padding-right: 180px;
+  cursor: pointer;
+}
+.menu_inside * {
+  color: #212224;
+}
+
+.menu_inside > ul {
+  display: flex;
+  justify-content: space-between;
+}
+.menu_inside ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.menu_inside ul,
+.menu_inside ol {
+  list-style: none;
+}
+.menu_inside ul li ul li {
+  padding-bottom: 10px;
+}
+.acolor1:hover {
+  color: #007bff;
 }
 .main2 {
   background: #3375ec;
@@ -64,6 +125,7 @@ a {
   justify-content: center;
   align-items: center;
   transition: 0.85s;
+  cursor: pointer;
 }
 .box2 {
   margin-right: 15em;
@@ -122,6 +184,9 @@ a {
   color: white;
   background: #6b97e7;
 }
+.pd_lf_15px {
+  padding-left: 15px;
+}
 .clear {
   clear: both;
 }
@@ -166,6 +231,27 @@ a {
   width: 30%;
   background: white;
   box-shadow: 0 0px 20px rgba(223, 201, 201, 0.7);
+  display: flex;
+  flex-direction: column;
+}
+.cub h2 {
+  color: #262f3c;
+  font-weight: 400;
+  margin-bottom: 13px;
+}
+.cub p {
+  color: #8491a5;
+}
+.cub_img {
+  height: 55%;
+  width: 100%;
+}
+.cub_txt {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .container1_inside {
   width: 100%;
@@ -311,7 +397,6 @@ a {
 }
 .cub4_inside2_anim {
   display: flex;
-  align-items: center;
   position: relative;
 
   justify-content: center;
@@ -322,6 +407,11 @@ a {
   transform: translate(-85%, 55%);
   transition: 0.8s;
   z-index: 11;
+}
+.cub4_inside2_anim h2 {
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 15px;
 }
 .cub4_inside2:hover .cub4_inside2_anim {
   transform: translate(0);
@@ -346,7 +436,6 @@ a {
   align-items: center;
   margin-top: 5em;
   flex-direction: column;
-  border: 2px solid black;
 }
 
 .card {
@@ -391,4 +480,112 @@ footer {
   height: 80%;
   padding: 0em;
   border-bottom: 1px solid #dfdada;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main6_container2 {
+  width: 90%;
+  height: 35%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main6_img {
+  opacity: 0.6;
+  transition: 0.45s;
+}
+.main6_img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.marg_10px {
+  margin-top: 10px;
+}
+.foot_cont1 {
+  width: 75em;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.foot_cont1_inside {
+  height: 100%;
+  width: 15%;
+}
+.foot_width20 {
+  width: 25%;
+}
+.foot_copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+.foot_copyright_text {
+  color: #8491a5;
+  cursor: pointer;
+}
+.lighr_gray {
+  color: #8491a5;
+}
+.foot_marg20px {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.button_text {
+  color: #8491a5;
+  transition: 0.85s;
+}
+.butt:hover .button_text {
+  color: white;
+}
+.foot_cont1_inside ul {
+  list-style: none;
+  padding-bottom: 15px;
+}
+.foot_cont1_ul {
+  display: flex;
+  width: 100%;
+  height: 70%;
+  margin-top: 30px;
+}
+.foot_cont1_li {
+  height: 100%;
+  width: 50%;
+}
+.foot_cont p {
+  color: #8491a5;
+}
+.foot_cont a {
+  color: #8491a5;
+}
+.foot_cont li a {
+  color: #262f3c;
+}
+.foot_cont h2 {
+  color: #262f3c;
+}
+.foot_cont li {
+  padding-bottom: 10px;
+}
+.foot_cont h2 {
+  font-weight: 400;
+}
+.foot_cont1_inside a {
+  display: block;
+  margin-bottom: 10px;
+}
+.marg_30px {
+  margin-top: 30px;
+}
+.foot_cont p {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.foot_cont div a {
+  margin-bottom: 0;
 }
